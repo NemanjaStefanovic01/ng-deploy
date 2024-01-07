@@ -1,10 +1,10 @@
 <div class="container">
-  <h1>SREĆAN ROĐENDAN!</h1>
-  <p>Koji od ponuđenij poklana na F ćeš ti dobiti???</p>
+  <h1>SRECAN RORENDJAN!</h1>
+  <p>Koji od ponudjenij poklana na F ces ti dobiti???</p>
   <div class="btn-container">
     <p *ngIf="clickCount != 0" class="pzuti">{{4-clickCount}}/4</p>
     <button (click)="buttonClicked(0)" [disabled]="btn0" [ngClass]="{'btnclicked': btn0}">
-      FE S23 (Samsung logično)
+      FE S23 (Samsung logicno)
     </button>
     <button (click)="buttonClicked(1)" [disabled]="btn1" [ngClass]="{'btnclicked': btn1}">
       Foto Album (sa nasim slikama)
@@ -13,7 +13,7 @@
       Fenjer (Kul je veruj mi)
     </button>
     <button (click)="buttonClicked(3)" [disabled]="btn3" [ngClass]="{'btnclicked': btn3}">
-      Frustraciju(nije stigao poklon)
+      Frustraciju (nije stigao poklon)
     </button>
   </div>
   <h2 [ngClass]="{'h2appeare': allButtonsClicked}">PA REKAO SAM DA NIJE NA F</h2>
